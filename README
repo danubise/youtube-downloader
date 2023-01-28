@@ -1,0 +1,1 @@
+docker run --rm -ti -v $(pwd)/download:/app/download danubise/youtube_downloader:1 python main.py "YOUTUBE URL"

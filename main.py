@@ -11,5 +11,8 @@ def process(youtube_url: str = None):
     print("Done.")
 
 
-if __name__ == '__main__' and len(sys.argv) > 1:
+print(sys.argv)
+if len(sys.argv) > 1:
     process(sys.argv[1])
+else:
+    print("Please provide youtube URL as argument")
