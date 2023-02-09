@@ -1,4 +1,7 @@
 docker run --rm -ti -v $(pwd)/download:/app/download danubise/youtube_downloader:latest python main.py "YOUTUBE URL"
 
-
+#To download video data
 docker run --rm -ti -v $(pwd)/download:/app/download danubise/youtube_downloader:latest "YOUTUBE URL"
+
+#To download audio only
+docker run --rm -ti -v $(pwd)/download:/app/download danubise/youtube_downloader:latest "YOUTUBE URL" audio
